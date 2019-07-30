@@ -1,0 +1,214 @@
+body{
+  background-color:#F4F4F4;
+  color:#555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+  line-height:1.6em;
+  margin:0;
+}
+a.mainNav:link{
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #fff;
+  color:            #555;
+} 
+a.mainNav:visited{
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #fff;
+  color:            #555;
+} 
+a.mainNav:hover{
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #fff;
+  color:            olive;
+} 
+a.mainNav:active{
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #fff;
+  color:      #555;
+} 
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+.container2{
+    width:100%;
+    height:575px;
+    overflow:hidden;
+    margin: 0px auto;
+}
+.container3{
+  text-align:center;
+  box-sizing: border-box;
+}
+#logo{
+    display:inline-block;
+    background-color:white;
+    vertical-align: middle;
+    padding-left:40px;
+}
+.navigation,.navigation ul{
+    list-style:none;
+    background-color:white;
+}
+.navigation{
+    background-color:white;
+    display:inline-block;
+}
+.navigation>li{
+    display:inline;
+    text-align:center;
+    line-height:50px;
+    background-color:white;
+}
+.navigation a{
+  background-color:#fff;
+  color:#333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  line-height:1.6em;
+  padding-right:50px;
+  padding-left:30px;
+}
+.navigation ul{
+  background-color: white;
+}
+#whitebox{
+  width:100%;
+  height:372px;
+  background-color:#fff;
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index:-2;
+}
+.w3-button{
+  background-color:#F4F4F4;
+  border: none;
+  color: #555;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 13%;
+  margin-right: 13%;
+  font-weight: bold;
+  cursor: pointer;
+}
+.w3-button:hover{
+  color: olive;
+}
+.w3-button:active{
+  color: #555;
+}
+.mySlides{
+  margin: auto;
+  z-index:2;
+  position: relative;
+  height:530px;
+  width: auto;
+}
+#blackbox{
+  width:100%;
+  height:568px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: #0D0D0D;
+  position: absolute;
+  z-index:-1;
+  padding-top: 2px solid white;
+  border-top:1px solid white;
+  border-bottom: 38px solid #F4F4F4;
+}
+#mainfooter{
+  text-align:center;
+  line-height: 0.5em;
+}
+#tehtudToodList{
+  line-height: 0.8em;
+  margin:0 auto;
+  display:block;
+}
+#tehtudToodList p{
+  text-align: center;
+  font-size: 25px;
+}
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.fling-minislide {height:300px; width: 300px; position:relative;}
+.fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; height:300px; width:auto;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+#tehtud1,#tehtud2,#tehtud3,#tehtud4{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 20%;
+}
+.listtitle1{
+  text-align: center;
+}
+#mainfooter img{
+  width: 35px;
+  height: 35px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+#whitebox2{
+  width:100%;
+  height:70px;
+  background-color:#fff;
+  position:absolute;
+  left:0px;
+  z-index:-1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#hidden{
+  border:2px solid #F4F4F4;
+  background-color: #F4F4F4;
+}
+.kategooria{
+  background-color:olive;
+  border: 1px #ccc solid;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.kategooria:hover{
+  color:olive;
+  background-color: #fff;
+}
+#esimene{
+  margin-left: 35%;
+}
+.keeled{
+  margin-left: 15px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

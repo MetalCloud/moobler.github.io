@@ -1,0 +1,219 @@
+body{
+  background-color:#F4F4F4;
+  color:#555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+  line-height:1.6em;
+  margin:0;
+  overflow: auto;
+}
+a.mainNav:link{
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #fff;
+  color:            #555;
+} 
+a.mainNav:visited{
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #fff;
+  color:            #555;
+} 
+a.mainNav:hover{
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #fff;
+  color:            olive;
+} 
+a.mainNav:active{
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #fff;
+  color:      #555;
+} 
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+.container2{
+  position: relative;
+  color: white;
+  overflow:hidden;
+  margin: 0px auto;
+}
+#logo{
+    display:inline-block;
+    background-color:white;
+    vertical-align: middle;
+    padding-left:40px;
+}
+.navigation,.navigation ul{
+    list-style:none;
+    background-color:white;
+}
+.navigation{
+    background-color:white;
+    display:inline-block;
+}
+.navigation>li{
+    display:inline;
+    text-align:center;
+    line-height:50px;
+    background-color:white;
+}
+.navigation a{
+  background-color:#fff;
+  color:#333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  line-height:1.6em;
+  padding-right:50px;
+  padding-left:30px;
+}
+.navigation ul{
+  display:none;
+}
+#whitebox{
+  width:100%;
+  height:372px;
+  background-color:#fff;
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index:-2;
+}
+.w3-button{
+  background-color:#F4F4F4;
+  border: none;
+  color: #555;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 13%;
+  margin-right: 13%;
+  font-weight: bold;
+  cursor: pointer;
+}
+.w3-button:hover{
+  color: olive;
+}
+.w3-button:active{
+  color: #555;
+}
+hr{
+  border:2px solid #F4F4F4;
+  background-color: #F4F4F4;
+}
+#mainfooter{
+  text-align:center;
+  line-height: 0.5em;
+}
+#telefon{
+  text-align: center;
+  color: olive;
+}
+#kontaktinfo{
+  font-size: 20px;
+  padding-left: 50px;
+  padding-top: 10px;
+  color: #777;
+  line-height: 1em;
+  font-weight: normal;
+  float: left;
+  vertical-align: top;
+  margin: auto;
+  background-color: #F4F4F4;
+}
+#kontaktinfo img{
+  margin-left: 220px;
+}
+#kontaktinfo a:link{
+  text-decoration:  none;
+  font-weight:      normal;
+  color:            #777;
+} 
+#kontaktinfo a:visited{
+  text-decoration:  none;
+  font-weight:      normal;
+  color:            #777;
+} 
+#kontaktinfo a:hover{
+  text-decoration:  none;
+  font-weight:      normal;
+  color:            olive;
+} 
+#kontaktinfo a:active{
+  text-decoration:  none;
+  font-weight:      normal;
+  color:      #777;
+}
+#mainfooter img{
+  width: 35px;
+  height: 35px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+#whitebox2{
+  width:100%;
+  height:70px;
+  background-color:#fff;
+  position:absolute;
+  left:0px;
+  z-index:-1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.column{
+  float: left;
+  width: 33.3%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
+  text-align: center
+}
+.aadress{
+  line-height: 0em;
+}
+#pealmine{
+  padding-top: 10px;
+}
+#whitebox3{
+  width:100%;
+  height:300px;
+  background-color:#F4F4F4;
+  z-index:-2;
+  position:absolute;
+  top:83px;
+  left:0px;
+}
+#eraldi{
+  border:0.2px solid #777;
+}
+#map{
+  margin-left: 20px;
+  margin-top: 15px;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#showcase{
+  background-image: url(images/Lehekuljepildid/moobleribanner1.png);
+  background-position:center;
+  min-height:400px;
+  margin-bottom:30px;
+  text-align:center;
+  background-repeat:no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#esimene{
+  margin-left: 35%;
+}
+.keeled{
+  margin-left: 15px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
