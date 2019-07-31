@@ -126,20 +126,16 @@ hr{
 .peatekst{
   font-size: 18px;
   line-height: 1.6em;
-
-}
-#kalev{
-  width: 600px;
-  height: auto;
-  float: left;
-  margin-left: 10px;
-  margin-top: 30px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#korval{
-  float: left;
-  width: 600px;
 }
 #alumine{
   float: left;
+}
+#showcase{
+  background-image: url(images/Lehekuljepildid/moobleribanner3.png);
+  background-position:center;
+  min-height:400px;
+  margin-bottom:30px;
+  text-align:center;
+  background-repeat:no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
