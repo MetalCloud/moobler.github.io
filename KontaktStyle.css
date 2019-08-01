@@ -218,3 +218,12 @@ hr{
 #esimene{
 	margin-right: 35px;
 }
+#tekst{
+  font-size: 100px;
+  color: white;
+  float: left;
+  margin-left: 30px;
+  max-width: 700px;
+  line-height: 1.1em;
+  text-shadow: -5px 5px black;
+}
