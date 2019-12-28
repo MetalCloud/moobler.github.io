@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M&ouml;&ouml;bler O&Uuml; | Peituksed</title>
+	<embed><link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet"></embed>
+	<link rel="stylesheet" type="text/css" href="peitstyle.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta charset="utf-8" name="keywords" content="peitusked,moobler ou,mööbler oü">
+</head>
+<body>
+	<header>
+		<div class="header" id="myHeader">
+		  <a id="lnk" href="index.html"><img id="logo" src="imgs/logo.png"></a>
+			<ul class="navigation">
+				<li><a class="mainNav" href="index.html">AVALEHT</a></li>
+				<li><a class="mainNav" href="meist.html">MEIST</a></li>
+				<li><a class="mainNav" href="tehtudtood.html">TEHTUD T&Ouml;&Ouml;D</a></li>
+				<li><a class="mainNav" href="peituksed.html">PEITUKSED</a></li>
+				<li><a class="mainNav" href="kontakt.html">KONTAKT</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="parallax">
+		<h1 id="big">PEITUKSED</h1>
+	</div>
+	<script type="text/javascript">
+		  function initComparisons() {
+		  var x, i;
+		  x = document.getElementsByClassName("img-comp-overlay");
+		  for (i = 0; i < x.length; i++) {
+		    compareImages(x[i]);
+		  }
+		  function compareImages(img) {
+		    var slider, img, clicked = 0, w, h;
+		    w = img.offsetWidth;
+		    h = img.offsetHeight;
+		    img.style.width = (w / 2) + "px";
+		    slider = document.createElement("DIV");
+		    slider.setAttribute("class", "img-comp-slider");
+		    img.parentElement.insertBefore(slider, img);
+		    slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
+		    slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
+		    slider.addEventListener("mousedown", slideReady);
+		    window.addEventListener("mouseup", slideFinish);
+		    slider.addEventListener("touchstart", slideReady);
+		    window.addEventListener("touchstop", slideFinish);
+		    function slideReady(e) {
+		      e.preventDefault();
+		      clicked = 1;
+		      window.addEventListener("mousemove", slideMove);
+		      window.addEventListener("touchmove", slideMove);
+		    }
+		    function slideFinish() {
+		      clicked = 0;
+		    }
+		    function slideMove(e) {
+		      var pos;
+		      if (clicked == 0) return false;
+		      pos = getCursorPos(e)
+		      if (pos < 0) pos = 0;
+		      if (pos > w) pos = w;
+		      slide(pos);
+		    }
+		    function getCursorPos(e) {
+		      var a, x = 0;
+		      e = e || window.event;
+		      a = img.getBoundingClientRect();
+		      x = e.pageX - a.left;
+		      x = x - window.pageXOffset;
+		      return x;
+		    }
+		    function slide(x) {
+		      img.style.width = x + "px";
+		      slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
+		    }
+		  }
+		} 
+	</script>
+	<br>
+	<div class="keskmine">
+		<h1 class="sr">Mööbler OÜ on <mark>üks ainsaid ettevõtteid Eestis</mark>, mis suudab toota peidetud ustega eritellimusmööblit.</h1>
+	</div>
+	<br>
+	<br>
+	<div class="keskmine">
+			<div class="img-comp-container">
+			  <div class="img-comp-img">
+			    <img src="imgs/thmbs/100.jpg" width="320">
+			  </div>
+			  <div class="img-comp-img img-comp-overlay">
+			    <img src="imgs/thmbs/98.jpg" width="320">
+			  </div>
+			</div>
+		<script>
+		initComparisons();
+		</script>
+		<span id="span">
+			<h1>Mis on peituksega mööbel?</h1>
+			<p class="vke">Peituksega mööbel on suurem mööbliese, nagu raamaturiiul, veiniriiul või riidekapp, mille sisse on ehitatud peidetud uks, mida lihtsa vaatluse korral on võimatu või väga raske märgata. Peidetud uks on tavaliselt ehitatud kui ühe sektsioonina suuremast mööbli osast, mis sulandub ülejäänud osadega kokku sellisel kujul, et tähele panna seda, ilma teadmisetta et see seal olemas on, on peaaegu võimatu. Peidetud ukse erinevaid avanemismeetodeid on mitmeid, näiteks saaks seda avada näidates õigele kohale selleks eraldi loodud kaarti, mis mahub rahakoti vahele, või mööbli peale/sisse peidetud raskestimärgatavale nupule vajutades, või siis lihtsalt seda õigel viisil tõmmates. Peituksega mööbel on eritellimusmööbel, ning Mööbler OÜ on suuteline just sinu vajadustele vastavat peidetud uksega mööblieset looma, sõltuvalt tahtest, mööbli suurusest ning liigist ja selle mööblieseme tavalisest kasutusfunktsioonist.</p>
+		</span>
+	</div>
+	<p id="inst">Vajutage ja tirige rohelist ringi et näha muutust.</p>
+	<br>
+	<div class="keskmine">
+		<span id="spn">
+			<h1>Milleks seda soetada?</h1>
+			<p class="vke">Peituksega mööbel suudab täita mitmekülgseid funktsioone, olles esimese ja tähtsaima asjana kvaliteetne ja täiesti funktsionaalne mööbliese, mis täidab kõik tavalise mööblieseme ülesanded, ning teise punktina kui varjatud uks mingisse ruumi. Peituksega mööbel võib olla keskpunktiks tervele toale, olles pidevalt käitluses ja avatud olekus, et näidata selle toredat funktsionaalsust kui väga erilise uksena kas siis järgmisesse, või peidetud tuppa, kuid samas saab see olla kui tavaline suurem mööbliese, millele tavaline varas ei oskaks teist pilkugi heita, kui teil oleks vaja ära peita näiteks seifiruumi, millele see peidetud uks oleks kui lisatud turvameede- seifi on raske sisse murda, kui seda on võimatu leida.</p>
+		</span>
+			<img class="plt" src="imgs/thmbs/101.jpg">
+	</div>
+	<p id="tkst">Peituksega mööblieksponaat 2015. a Interjöör ja Aed messil</p>
+	<br>
+	<div class="keskmine">
+		<h1>Olete huvitatud?</h1>
+	</div>
+	<div class="keskmine">
+		<a id="link" href="kontakt.html"><h1>Võtke meiega ühendust!</h1></a>
+	</div>
+	<br>
+	<br>
+	<footer>
+		<div id="footer">
+			<p class="jls">Sooviksite meilt midagi tellida? Võtke meiega ühendust ja räägime!</p>
+			<span>
+			<ul id="fl">
+				<li>+372 5590 1280</li>
+				<li>moobler.info@gmail.com</li>
+			</ul>
+			</span>
+		</div>
+	</footer>
+<body>
+
+</body>
+</html>

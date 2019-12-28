@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M&ouml;&ouml;bler O&Uuml; | Avaleht</title>
+	<embed><link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet"></embed>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta charset="utf-8" name="keywords" content="avaleht,moobler ou,mööbler oü">
+</head>
+<body>
+	<header>
+		<div class="header" id="myHeader">
+		  <a id="lnk" href="index.html"><img id="logo" src="imgs/logo.png"></a>
+			<ul class="navigation">
+				<li><a class="mainNav" href="index.html">AVALEHT</a></li>
+				<li><a class="mainNav" href="meist.html">MEIST</a></li>
+				<li><a class="mainNav" href="tehtudtood.html">TEHTUD T&Ouml;&Ouml;D</a></li>
+				<li><a class="mainNav" href="peituksed.html">PEITUKSED</a></li>
+				<li><a class="mainNav" href="kontakt.html">KONTAKT</a></li>
+			</ul>
+		</div>
+		<div id="showcase">
+			<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+			<div class="background-image toggle-image first-image show"></div>
+			<div class="background-image toggle-image second-image"></div>
+			<div class="background-image toggle-image third-image"></div>
+			<script type="text/javascript">
+				function cycleBackgrounds() {
+				var index = 0;
+
+				$imageEls = $('.toggle-image');
+
+				setInterval(function () {
+
+					index = index + 1 < $imageEls.length ? index + 1 : 0;
+
+					$imageEls.eq(index).addClass('show');
+
+					$imageEls.eq(index - 1).removeClass('show');
+
+				}, 5000);
+			};
+
+			$(function () {
+				cycleBackgrounds();
+			});
+			</script>
+		</div>
+	</header>
+	<section>
+		<div id="keskmine">
+			<img id="img" src="imgs/logoumar2.png">
+			<span id="span">
+				<h1 id="title">M&Ouml;&Ouml;BLER O&Uuml;, NOOBEL M&Ouml;&Ouml;BEL!</h1>
+				<p id="peatekst"><u>Tere kodulehe k&uuml;lastaja!</u>
+				O&Uuml; M&ouml;&ouml;bler pakub erilahendustena ja just kliendile sobilikke lahendusi kui vajate m&ouml;&ouml;blit k&ouml;&ouml;ki, elutuppa, esikusse v&otilde;i kuhu iganes mujale. Meil on pakkuda p&otilde;nevaid lahendusi ja oleme kliendikesksed. Kuulame ja m&otilde;tleme kaasa ning oskame selle juures n&otilde;ustada, et leida  parim lahendus. Arvestades teie personaalsete soovidega ja ei v&otilde;ta eesm&auml;rgiks selle juures teie rahakotti laastada. Aitame kavandada, toodame ja paigaldame m&ouml;&ouml;blit, erilahendusi teie ruumides.
+				 Ettev&otilde;tet juhib laialdase t&ouml;&ouml;kogemustega tisler, kes omab ka elektriku t&ouml;&ouml;ks teadmisi.
+				Ettev&otilde;ttel on erioskused toota  n&auml;iteks l&otilde;&otilde;tspillile puidudetaile, aga saame abiks olla vajadusel teie materjali t&ouml;&ouml;tlemisel, hankimisel.</p>
+			</span>
+		</div>
+	</section>
+	<br>
+	<footer>
+		<div id="footer">
+			<p class="jls">Sooviksite meilt midagi tellida? Võtke meiega ühendust ja räägime!</p>
+			<span>
+			<ul id="fl">
+				<li>+372 5590 1280</li>
+				<li>moobler.info@gmail.com</li>
+			</ul>
+			</span>
+		</div>
+	</footer>
+</body>
+</html>
