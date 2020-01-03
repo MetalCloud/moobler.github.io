@@ -44,7 +44,7 @@ body{
 	line-height:1.3em;
 	padding-right:40px;
 	padding-left:40px;
-  padding-bottom: 25px;
+  padding-bottom: 24px;
   border-bottom: 6px solid #fff;
   transition: border-color 1s ease-in-out;
 }
@@ -65,7 +65,7 @@ a.mainNav:hover{
   text-decoration:  none;
   background-color: #fff;
   color:            #555;
-  padding-bottom: 25px;
+  padding-bottom: 24px;
   border-bottom: 6px solid olive;
   transition: border-color 0.3s ease-in-out;
 } 
