@@ -104,7 +104,7 @@ a.mainNav:active{
 }
 .slides, .slides li {
   width: 480px;
-  height: 625px;
+  height: 600px;
 }
 .slides img {
   height: 600px;
@@ -127,7 +127,6 @@ a.mainNav:active{
   flex-direction: column;
   line-height: 0;
   list-style: none;
-  margin-bottom: 50px;
 }
 .thumbnails li {
   -webkit-box-flex: 1;
