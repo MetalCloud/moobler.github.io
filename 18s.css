@@ -103,11 +103,11 @@ a.mainNav:active{
   list-style: none;
 }
 .slides, .slides li {
-  width: 865px;
-  height: 625px;
+  width: 830.4px;
+  height: 600px;
 }
 .slides img {
-  height: 625px;
+  height: 600px;
 }
 .slides li {
   position: absolute;
