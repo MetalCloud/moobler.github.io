@@ -127,6 +127,7 @@ a.mainNav:active{
   flex-direction: column;
   line-height: 0;
   list-style: none;
+  margin-bottom: 500px;
 }
 .thumbnails li {
   -webkit-box-flex: 1;
