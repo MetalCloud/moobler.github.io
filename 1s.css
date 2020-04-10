@@ -103,11 +103,11 @@ a.mainNav:active{
   list-style: none;
 }
 .slides, .slides li {
-  width: 500px;
-  height: 625px;
+  width: 480px;
+  height: 600px;
 }
 .slides img {
-  height: 625px;
+  height: 600px;
 }
 .slides li {
   position: absolute;
@@ -127,6 +127,7 @@ a.mainNav:active{
   flex-direction: column;
   line-height: 0;
   list-style: none;
+  margin-bottom: 50px;
 }
 .thumbnails li {
   -webkit-box-flex: 1;
