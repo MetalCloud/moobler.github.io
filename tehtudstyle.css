@@ -109,3 +109,29 @@ a.mainNav:active{
 .grid img:hover{
   transform: scale(1.1);
 }
+.mnu{
+  list-style: none;
+  margin-bottom: -5px;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mnu li{
+  float: left;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+.mnu a{
+  font-size: 20px;
+  color: #333;
+  padding: 15px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  transition: background-color ease-in-out 0.5s;
+}
+.mnu a:hover{
+  background-color: olive;
+}
