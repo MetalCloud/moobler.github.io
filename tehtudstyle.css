@@ -136,3 +136,7 @@ a.mainNav:active{
 .mnu a:hover{
   background-color: olive;
 }
+#pmn{
+  margin-left: 50px;
+  margin-right: 50px;
+}
