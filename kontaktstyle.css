@@ -37,13 +37,12 @@ body{
     line-height:50px;
 }
 .navigation a{
-	background-color:#fff;
-	color:#333;
-  font-family: 'Oswald', sans-serif;
-	font-size:20px;
-	line-height:1.3em;
-	padding-right:40px;
-	padding-left:40px;
+  background-color:#fff;
+  color:#333;
+  font-size:20px;
+  line-height:1.3em;
+  padding-right:40px;
+  padding-left:40px;
   padding-bottom: 24px;
   border-bottom: 6px solid #fff;
   transition: border-color 1s ease-in-out;
@@ -72,11 +71,11 @@ a.mainNav:hover{
 a.mainNav:active{
   text-decoration:  none;
   background-color: #fff;
-  color: 			#555;
+  color:      #555;
 }
 #mapDiv{
   z-index: 2;
-  width: 900px; 
+  width: 800px; 
   height: 487px;
   margin-right: 50px;
   border: 15px solid #fff;
@@ -92,7 +91,7 @@ a.mainNav:active{
   box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.28);
 }
 #keskmine{
-  margin-top: 100px;
+  margin-top: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,7 +121,7 @@ a.mainNav:active{
   margin-bottom: -10px;
   font-family: 'Oswald', sans-serif;
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
 }
 #ndmd{
   list-style: none;
